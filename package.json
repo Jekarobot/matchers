@@ -1,0 +1,36 @@
+{
+  "name": "matchers",
+  "version": "1.0.0",
+  "description": "Шаблон для создания кода",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint . --ext .js",
+    "build": "babel src -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^27.6.3",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.35.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jekarobot/matchers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jekarobot/matchers/issues"
+  },
+  "homepage": "https://github.com/Jekarobot/matchers#readme"
+}
